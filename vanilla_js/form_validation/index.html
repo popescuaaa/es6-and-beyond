@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form" class="form">
+            <h2> Register </h2>
+             <div class="form-control">
+                 <label for="username">Username</label>
+                 <input type="text" name="" id="username" placeholder="Enter username"/> 
+                 <small> Error message </small>
+             </div>
+             <div class="form-control">
+                 <label for="email">Email</label>
+                 <input type="email" name="" id="email" placeholder="Enter email"/> 
+                 <small> Error message </small>
+             </div>
+             <div class="form-control">
+                 <label for="password">Password</label>
+                 <input type="password" name="" id="password" placeholder="Enter password"/> 
+                 <small> Error message </small>
+             </div>
+             <div class="form-control">
+                <label for="password-repeat">Repeat password</label>
+                <input type="password" name="" id="password-repeat" placeholder="Enter password"/> 
+                <small> Error message </small>
+            </div>
+            <button type="submit" id="submit"> Submit </button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
