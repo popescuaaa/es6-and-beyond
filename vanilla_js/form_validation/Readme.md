@@ -1,7 +1,7 @@
 ## Form validation
 
 ### Structure 
-- [ ] HTML structure 
-- [ ] CSS Styling 
-- [ ] JS basic validation version ( no modularization )
+- [x] HTML structure 
+- [x] CSS Styling 
+- [x] JS basic validation version ( no modularization )
 - [ ] JS refactored code

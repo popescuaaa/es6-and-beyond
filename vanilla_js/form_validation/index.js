@@ -2,7 +2,7 @@ const form = document.getElementById("form");
 const username = document.getElementById("username");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
-const password2 = document.getElementById("passwrod2");
+const repeatedPassword = document.getElementById("passwrod2");
 
 // General purpose functions
 
@@ -20,6 +20,7 @@ const showSuccess = (input) => {
   formControl.className = "form-control success";
 };
 
+// Validation functions
 const validateEmail = (email) => {
   const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(String(email).toLowerCase());
@@ -30,13 +31,12 @@ const validatePassword = (password) => {
     return size > 8 ? true : false;
 }
 
-const validateRepeatedPassword = (password, password2) => {
+const validateRepeatedPassword = (password, repeatedPassword) => {
     const pValue = password.value;
-    const p2Value = password2.value;
+    const p2Value = repeatedPassword.value;
     retrun (pValue.trim() ===  p2Value.trim()) ? true : false;
 }
 
-// Validation functions
 const checkRequiredFiled = (inputArr) => {
   inputArr.forEach((element) => {
     if (element.value.trim() === "") {
