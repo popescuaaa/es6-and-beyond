@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seats booking system</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+      <div class="movie-container">
+        <select
+          class="selectpicker"
+          id="movie"
+          title="Chioose the movie you want to check..."
+        >
+          <optgroup label="Movie">
+            <option value="10">Avengers</option>
+            <option value="12">Joker</option>
+            <option value="16">The lion king</option>
+            <option value="9"> How to train your dragon 2</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <div class="container">
+        <ul class="showcase">
+          <li>
+            <div class="seat"></div>
+            <small>N/A</small>
+          </li>
+          <li>
+            <div class="seat occupied"></div>
+            <small>Occupied</small>
+          </li>
+          <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+        </div>
+      </div>
+      <div class="container">
+        <p class="text">
+          You have selected a total number of <span id="count">0</span> seats
+          and the total const is $<span id="total">0</span>
+        </p>
+      </div>
+    <script src="index.js"></script>
+  </body>
+</html>
