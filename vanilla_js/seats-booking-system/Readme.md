@@ -4,5 +4,6 @@
 - [x] HTML core body
 - [x] CSS core style
 - [x] index.js basic functionality
-- [ ] localStorage interaction for reload
-- [ ] populate UI with saved data
+### Data persistency at refresh
+- [x] localStorage interaction for reload
+- [x] populate UI with saved data
