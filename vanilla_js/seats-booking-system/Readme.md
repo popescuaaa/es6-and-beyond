@@ -3,6 +3,6 @@
 ### Strcuture 
 - [x] HTML core body
 - [x] CSS core style
-- [ ] index.js basic functionality
-- [ ] localStorage interaction 
+- [x] index.js basic functionality
+- [ ] localStorage interaction for reload
 - [ ] populate UI with saved data
