@@ -7,11 +7,9 @@
 - [x] Create a folder structure for future addons to the project 
 ---
 ### Step two [ 29/07/2020 ]
-- [ ] Resolve problem with non-dispaly images
+- [x] Resolve problem with non-dispaly images [ by changing and image passing idea ]
 - [ ] Create routing for all categories
 - [ ] Add separate array mocks with clothes for separate categories
-
-
 
 ---
 ### Final step
