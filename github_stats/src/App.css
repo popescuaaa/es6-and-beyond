@@ -1,0 +1,20 @@
+.main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monitor {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: sans-serif;
+}
